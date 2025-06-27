@@ -37,6 +37,7 @@ erDiagram
   CUSTOMER ||--o{ SALE : places
   PRODUCT ||--o{ SALE : includes
   PRODUCT ||--|| INVENTORY : tracked_by
+```
 
 The Product entity stores information about all of the Nike shoes available in the store. Each product includes all of the details such as name and category, and the each have a unique ID.
 
