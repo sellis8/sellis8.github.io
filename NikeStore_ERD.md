@@ -46,6 +46,6 @@ The Sale entity shows the transaction where a customer purchases a product. Each
 
 The Inventory entity tracks the quantity and location of each product in the store.
 
-- Customer to Sale (One to Many): Allows store to track which customers are making purchases and how often they are. 
-- Product to Sale (One to Many): Helps see which products are top sellers and see supply and demand.
-- Product to Inventory (One to One): Helps the store ensure accurate inventory count for each product.
+- Customer to Sale (One-to-Many): Allows store to track which customers are making purchases and how often they are. 
+- Product to Sale (One-to-Many): Helps see which products are top sellers and see supply and demand.
+- Product to Inventory (One-to-One): Helps the store ensure accurate inventory count for each product.
