@@ -38,13 +38,13 @@ erDiagram
   PRODUCT ||--o{ SALE : includes
   PRODUCT ||--|| INVENTORY : tracked_by
 
-The 'Product' entity stores information about all of the Nike shoes available in the store. Each product includes all of the details such as name and category, and the each have a unique ID.
+The Product entity stores information about all of the Nike shoes available in the store. Each product includes all of the details such as name and category, and the each have a unique ID.
 
-The 'Customer' entity contains all of the records for individuals that shop at the store. It has their contact information and their first and last names.
+The Customer entity contains all of the records for individuals that shop at the store. It has their contact information and their first and last names.
 
-The 'Sale' entity shows the transaction where a customer purchases a product. Each sale is linked to a specific customer product using its foreign keys.
+The Sale entity shows the transaction where a customer purchases a product. Each sale is linked to a specific customer product using its foreign keys.
 
-The 'Inventory' entity tracks the quantity and location of each product in the store.
+The Inventory entity tracks the quantity and location of each product in the store.
 
 - Customer to Sale (One to Many): Allows store to track which customers are making purchases and how often they are. 
 - Product to Sale (One to Many): Helps see which products are top sellers and see supply and demand.
