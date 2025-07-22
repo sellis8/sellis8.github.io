@@ -6,9 +6,8 @@
   <title>Gradebook</title>
   <style>
     table {
-      width: 80%;
+      width: 100%;
       border-collapse: collapse;
-      margin: 20px auto;
     }
     th, td {
       border: 1px solid #ddd;
@@ -21,9 +20,7 @@
   </style>
 </head>
 <body>
-
-  <h1 style="text-align:center;">Student Gradebook</h1>
-
+  <h1>Gradebook</h1>
   <table id="gradebook">
     <thead>
       <tr>
@@ -40,7 +37,6 @@
         <!-- Rows will be populated dynamically with JavaScript -->
     </tbody>
   </table>
-
   <script src="gradebook.js"></script>
 </body>
 </html>
