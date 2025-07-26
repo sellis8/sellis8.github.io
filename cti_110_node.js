@@ -34,7 +34,7 @@ router.get('/api/grades',function(req, res){
             FROM Students  
             LEFT JOIN Assignments ON Assignments.student_id = Students.student_id 
             GROUP BY Students.student_id 
-            ORDER BY total_grade DESC`,
+            ORDER BY total_grade DESC',
         [],
         function( err, result){
             if(err)
@@ -44,8 +44,8 @@ router.get('/api/grades',function(req, res){
             
             result.rows.forEach( 
                     function(row){
-                        console.log(`Student Name: ${row.first_name} ${row.last_name}`);
-                        console.log(`Grade: ${row.total_grade}`);
+                        console.log('Student Name: ${row.first_name} ${row.last_name}');
+                        console.log('Grade: ${row.total_grade}');
                     }
             ); // End of forEach
             
